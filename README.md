@@ -1,4 +1,4 @@
-# Spring_Server 
+# Spring Websocket Server 
 Created a Spring Websocket Server to communicate with our Android client.
 
 ## How it works
