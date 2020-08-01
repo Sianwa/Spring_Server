@@ -11,5 +11,7 @@ public class WebSocketConfigurer implements org.springframework.web.socket.confi
     @Override
     public void registerWebSocketHandlers(WebSocketHandlerRegistry registry) {
         registry.addHandler(new WebSocketHandler(), "/test");
+
+        registry.addHandler(new WebSocketHandler(), "/all");
     }
 }

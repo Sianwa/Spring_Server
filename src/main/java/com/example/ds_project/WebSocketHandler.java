@@ -17,6 +17,7 @@ public class WebSocketHandler extends AbstractWebSocketHandler {
             System.out.println("Added to cart");
             session.sendMessage(new TextMessage("20.00"));
 
+
     }
 
     @Override
@@ -24,6 +25,5 @@ public class WebSocketHandler extends AbstractWebSocketHandler {
         System.out.println("New Binary Message Received");
         session.sendMessage(message);
     }
-
 }
 
