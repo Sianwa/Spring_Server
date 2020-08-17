@@ -1,5 +1,6 @@
-package com.example.ds_project;
+package com.example.ds_project.repository;
 
+import com.example.ds_project.models.ToyInformation;
 import org.springframework.data.repository.CrudRepository;
 
 

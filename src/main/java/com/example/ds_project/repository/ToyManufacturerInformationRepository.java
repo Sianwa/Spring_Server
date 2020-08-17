@@ -1,5 +1,6 @@
-package com.example.ds_project;
+package com.example.ds_project.repository;
 
+import com.example.ds_project.models.ToyManufacturerDetails;
 import org.springframework.data.repository.CrudRepository;
 
 // This will be AUTO IMPLEMENTED by Spring into a Bean called userRepository
