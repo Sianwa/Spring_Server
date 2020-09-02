@@ -6,7 +6,7 @@ public class ToyInformation {
     private String name;
     private String description;
     private Integer price;
-    private Integer dateOfManufacture;
+    private String dateOfManufacture;
     private Integer batchNumber;
 
     public ToyInformation(Integer id, String name, String description, Integer price, Integer dateOfManufacture,Integer batchNumber) {
@@ -45,11 +45,11 @@ public class ToyInformation {
         this.price = price;
     }
 
-    public Integer getDateOfManufacture() {
+    public String getDateOfManufacture() {
         return dateOfManufacture;
     }
 
-    public void setDateOfManufacture(Integer dateOfManufacture) {
+    public void setDateOfManufacture(String dateOfManufacture) {
         this.dateOfManufacture = dateOfManufacture;
     }
 
