@@ -11,7 +11,7 @@ import org.springframework.web.socket.config.annotation.WebSocketHandlerRegistry
 public class WebSocketConfigurer implements org.springframework.web.socket.config.annotation.WebSocketConfigurer {
     @Override
     public void registerWebSocketHandlers(WebSocketHandlerRegistry registry) {
-        registry.addHandler(new WebSocketHandler(), "/test");
+        registry.addHandler(new WebSocketHandler(), "/cart");
 
     }
 }
