@@ -30,6 +30,7 @@ public class WebSocketHandler extends TextWebSocketHandler {
             //which is then added to a cart array list that will generate the total for all cart items
             String ClientMessage = message.getPayload();
             if (ClientMessage.startsWith("{")) {
+                System.out.println(ClientMessage);
                 Map value = new Gson().fromJson(ClientMessage, Map.class);
 
                 double payload = (double) value.get("price");
