@@ -21,6 +21,7 @@ is basically an extension of the Spring framework which eliminated the boilerpla
 ## How it works
 The application is ment to simulate 'Add to Cart' functionality over websocket communication.
 The android client sends Toy information {code,name,price,description,manufacturer details} to the server.It extracts the price from the json object and adds it to an array then sums up all the toy prices and then returns the cost of the items and its then dislayed on the client interface.
+
 ![](images/serverLogcat.PNG)
 
 code for the android client can be found here: https://github.com/Sianwa/Websocket_Android_Client
